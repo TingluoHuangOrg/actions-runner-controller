@@ -1,6 +1,8 @@
 name: Publish Canary Image
 
 on:
+  workflow_dispatch:
+    
   push:
     branches:
       - master
